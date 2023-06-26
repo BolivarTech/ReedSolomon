@@ -35,6 +35,6 @@ This library depends on [BTUtils](https://github.com/BolivarTech/BTUtils) librar
 
 Copyright © [BolivarTech](https://www.bolivartech.com) 2022 All Rights Reserved.
 
-ISO WIM Costumizer © 2022 by [Julian Bolivar](https://www.bolivartech.com) is licensed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
+Java Reed–Solomon © 2022 by [Julian Bolivar](https://www.bolivartech.com) is licensed under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
 Please see [License File](LICENSE.md) for more information.
