@@ -23,6 +23,10 @@ to the algorithm, or it can detect and correct combinations of errors and erasur
 as multiple-burst bit-error correcting codes, since a sequence of b + 1 consecutive bit errors can affect at most two
 symbols of size b. The choice of t is up to the designer of the code and may be selected within wide limits.
 
+## Dependencies
+
+This library depends on [BTUtils](https://github.com/BolivarTech/BTUtils) library.
+
 ## Credits
 
 - [Julian Bolivar](https://www.linkedin.com/in/jbolivarg/)
