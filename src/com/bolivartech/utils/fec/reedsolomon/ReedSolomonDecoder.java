@@ -1,4 +1,4 @@
-package com.valhala.utils.fec.reedsolomon;
+package com.bolivartech.utils.fec.reedsolomon;
 
 import com.valhala.utils.array.ArrayUtils;
 import com.valhala.utils.converters.Converter;
@@ -11,15 +11,15 @@ import com.valhala.utils.exception.UtilsException;
  * href="http://www.cuaimacrypt.com">http://www.cuaimacrypt.com</a>.</p>
  * <p>Valhala Networks Homepage: <a
  * href="http://www.valhalanetworks.com">http://www.valhalanetworks.com</a>.</p>
- *
+ * <p>
  * This Class is the Valhala Networks's Reed-Solomon decoding Class.<br/><br/>
- *
+ * <p>
  * Esta clase implementa el metodo Reed-Solomon decoding.<br/><br/><br/><br/>
  *
  * @author Julian Bolivar
- * @since 2010,2011,2012,2013
- * @date January 26, 2013.
  * @version 1.0.0
+ * @date January 26, 2013.
+ * @since 2010, 2011, 2012, 2013
  */
 public final class ReedSolomonDecoder {
 
@@ -38,7 +38,7 @@ public final class ReedSolomonDecoder {
      * <p>Decodifica el mensaje y corrige los errores basados en el algoritmo de
      * Reed-Solomon.</p>
      *
-     * @param Input Mensaje a ser decodificado
+     * @param Input                Mensaje a ser decodificado
      * @param ErrorCorrectionBytes Numero de bytes de correcion en el bloque
      * @return Mensaje con los errores corregidos
      * @throws UtilsException Manejador de fallas en la recuperacion de errores.

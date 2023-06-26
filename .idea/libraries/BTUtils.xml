@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BTUtils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../BTUtils/dist/BTUtils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

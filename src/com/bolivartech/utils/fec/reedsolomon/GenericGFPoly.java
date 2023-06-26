@@ -1,4 +1,4 @@
-package com.valhala.utils.fec.reedsolomon;
+package com.bolivartech.utils.fec.reedsolomon;
 
 /**
  * Copyright 2010,2011,2012,2013 Valhala Networks C.A.<br/>
@@ -7,18 +7,18 @@ package com.valhala.utils.fec.reedsolomon;
  * href="http://www.cuaimacrypt.com">http://www.cuaimacrypt.com</a>.</p>
  * <p>Valhala Networks Homepage: <a
  * href="http://www.valhalanetworks.com">http://www.valhalanetworks.com</a>.</p>
- *
+ * <p>
  * This Class is the Valhala Networks's representation of a polynomial whose
  * coefficients are elements of a Galois Fields.<br/> Instances of this class
  * are immutable.<br/><br/>
- *
+ * <p>
  * Esta clase implementa la representacion de un polinomio cuyos coeficientes
  * son elemento de un campos de Galois.<br/><br/><br/><br/>
  *
  * @author Julian Bolivar
- * @since 2010,2011,2012,2013
- * @date January 26, 2013.
  * @version 1.0.0
+ * @date January 26, 2013.
+ * @since 2010, 2011, 2012, 2013
  */
 final class GenericGFPoly {
 
@@ -29,13 +29,13 @@ final class GenericGFPoly {
      * Constructor con inicializacion de los coeficientes del polinomio en el
      * campo de Galois.
      *
-     * @param GField el la instancia al campo de Galois usado para la efectual
-     * los calculos computacionales.
+     * @param GField       el la instancia al campo de Galois usado para la efectual
+     *                     los calculos computacionales.
      * @param coefficients Coeficientes del campo de Galois representados como
-     * enteros Estos coeficientes estan ordenados desde el mas significativo al
-     * menos significativo.
+     *                     enteros Estos coeficientes estan ordenados desde el mas significativo al
+     *                     menos significativo.
      * @throws IllegalArgumentException si los argumentos son null o vacios o si
-     * los coeficientes son 0 o no es una constante polinomial.
+     *                                  los coeficientes son 0 o no es una constante polinomial.
      */
     GenericGFPoly(GenericGF GField, int[] coefficients) {
         if (coefficients.length == 0) {
@@ -214,7 +214,7 @@ final class GenericGFPoly {
     /**
      * Multiplicacion del polinomio por un monomial
      *
-     * @param degree Grado del polinomio
+     * @param degree      Grado del polinomio
      * @param coefficient Coeficiene monomial
      * @return Multiplicacion por el monomial
      */

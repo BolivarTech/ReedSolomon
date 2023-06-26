@@ -1,7 +1,8 @@
-package com.valhala.utils.fec.reedsolomon;
+package com.bolivartech.utils.fec.reedsolomon;
 
-import com.valhala.utils.array.ArrayUtils;
-import com.valhala.utils.converters.Converter;
+import com.bolivartech.utils.array.ArrayUtils;
+import com.bolivartech.utils.converters.Converter;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,15 +13,15 @@ import java.util.List;
  * href="http://www.cuaimacrypt.com">http://www.cuaimacrypt.com</a>.</p>
  * <p>Valhala Networks Homepage: <a
  * href="http://www.valhalanetworks.com">http://www.valhalanetworks.com</a>.</p>
- *
+ * <p>
  * This Class is the Valhala Networks's Reed-Solomon Encoding Class.<br/><br/>
- *
+ * <p>
  * Esta clase implementa el metodo Reed-Solomon Encoding.<br/><br/><br/><br/>
  *
  * @author Julian Bolivar
- * @since 2010,2011,2012,2013
- * @date January 26, 2013.
  * @version 1.0.0
+ * @date January 26, 2013.
+ * @since 2010, 2011, 2012, 2013
  */
 public final class ReedSolomonEncoder {
 
@@ -45,7 +46,7 @@ public final class ReedSolomonEncoder {
      * Codifica el mensaje y agrega la cantidad de bytes especificados para la
      * correccion de errores
      *
-     * @param Input Mensaje de entrada original
+     * @param Input                Mensaje de entrada original
      * @param ErrorCorrectionBytes Numero de Bytes para la correccion de errores
      * @return Mensaje con los bytes de correccion de errores
      */
